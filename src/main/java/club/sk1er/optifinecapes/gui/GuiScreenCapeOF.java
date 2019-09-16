@@ -65,7 +65,6 @@ public class GuiScreenCapeOF extends GuiScreen {
             BigInteger randomBigInt1 = new BigInteger(128, random1);
             BigInteger serverBigInt = randomBigInt.xor(randomBigInt1);
             String serverId = serverBigInt.toString(16);
-            System.out.println(serverId);
             Minecraft.getMinecraft().getSessionService().joinServer(gameProfile, accessToken, serverId);
             String urlStr = "https://optifine.net/capeChange?u=" + userId + "&n=" + username + "&s=" + serverId;
             Desktop.getDesktop().browse(new URL(urlStr).toURI());
