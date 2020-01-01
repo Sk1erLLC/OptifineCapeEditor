@@ -2,9 +2,9 @@
   {
     "modid": "cape_editor",
     "name": "Optifine Cape Editor",
-    "description": "Adds a button (must be in a world / server!) to edit your Optifine cape.",
+    "description": "Adds a button (must be in a world/server!) to edit your Optifine cape.",
     "version": "1.0",
-    "mcversion": "1.8.9",
+    "mcversion": "1.7.10",
     "url": "https://sk1er.club",
     "updateUrl": "",
     "authorList": [
